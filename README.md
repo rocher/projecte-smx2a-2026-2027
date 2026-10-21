@@ -2,7 +2,7 @@
 
 Llista de projectes d'SMX2A del curs 2026-2027.
 
-### AlmostReal
+### [AlmostReal](https://github.com/samjorge28/AlmostReal)
 
 Esborrany Projecte AlmostReal
 
