@@ -179,4 +179,15 @@ de quin problema pot estar patint el pacient.
 
 Aquesta és la finalitat del nostre projecte.
 
-### LucasProject
+### UNDERLABS
+El projecte consisteix en el desenvolupament d’una plataforma tecnològica orientada al sector dels videojocs, dissenyada per oferir una solució integrada per a l’execució, la gestió i l’accés a continguts interactius de diferents entorns digitals.
+El sistema disposarà d’un entorn de programari propi, compatible amb diferents formats i sistemes de distribució de videojocs, tant físics com digitals, així com amb serveis i comptes vinculats a plataformes informàtiques externes.
+
+La comercialització dels productes i serveis es durà a terme mitjançant un portal web oficial, des del qual els usuaris podran adquirir els components físics del sistema i descarregar les solucions de programari disponibles.
+Paral·lelament, es desplegarà una infraestructura de servidors destinada a proporcionar serveis de connectivitat, allotjament de sessions multijugador i gestió d’entorns de joc en línia.
+
+Addicionalment, el projecte incorporarà una línia pròpia de perifèrics especialitzats, centrada inicialment en el disseny i la comercialització de dispositius de control adaptats a les característiques de la plataforma.
+Aquests productes s’integraran dins del catàleg de la botiga en línia, amb l’objectiu d’ampliar l’oferta de solucions disponibles i garantir una major integració entre els diferents components del sistema.
+
+En conjunt, la iniciativa pretén establir un ecosistema tecnològic integral dins de l’àmbit dels videojocs, combinant desenvolupament de programari, solucions de maquinari, serveis d’infraestructura en xarxa i perifèrics especialitzats en una única plataforma de distribució i accés.
+
