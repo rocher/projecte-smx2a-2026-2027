@@ -139,46 +139,61 @@ Finalment, tindreu una pàgina web per descarregar una extensió per als navegad
 ### [La-Fusta-Lactea](https://github.com/Imad815/la-fusta-lactea)
 
 #### Context
+
 La FUSTA és una fusteria que fabrica mobles a mida de manera artesanal. Els seus clients són sobretot empreses, hotels, restaurants i locals públics.
 Actualment, l'empresa està poc digitalitzada i molts processos es fan de manera tradicional. Per aquest motiu, la nova direcció vol modernitzar l'empresa per millorar l'organització, reduir costos, controlar millor els processos i aprofitar millor els materials.
+La FUSTA és una petita empresa que es dedica a fabricar i vendre mobles a mida. El nostre projecte és de digitalització: hem de preparar una infraestructura informàtica nova i posar en marxa sistemes nous que substitueixin els processos tradicionals.
 Nosaltres, com a responsables del projecte, haurem d'analitzar les necessitats de La FUSTA i proposar una solució informàtica que ajudi a modernitzar l'empresa.
 
+#### Descripció del sistema
+
+##### Què aporta el sistema
+
+Ara La FUSTA fa moltes coses a mà. La informació està repartida, es perd temps, hi ha errors i costa controlar els materials. El sistema informàtic ho vol solucionar i promet:
+
+- Tenir tota la informació (clients, projectes, treballadors i comptabilitat) en un sol lloc.
+- Treballar més ràpid i amb menys errors.
+- Aprofitar millor la fusta i gastar menys.
+- Controlar millor la feina i les incidències.
+- Protegir les dades amb còpies de seguretat i ciberseguretat.
+
+##### Com funciona
+
+El sistema té aquestes parts principals:
+
+- **Infraestructura:** espais, cables, electricitat, seguretat, xarxa i ordinadors. És la base de tot.
+- **Servidor:** l'ordinador central que guarda els programes i les dades de l'empresa.
+- **Programa de gestió (ERP):** serveix per portar els clients, els projectes, la comptabilitat, els treballadors i les incidències.
+- **Web:** perquè els clients coneguin l'empresa i puguin contactar-hi.
+- **Gestió del tall de fusta:** ajuda a planificar el tall per aprofitar bé el material.
+- **Còpies de seguretat i ciberseguretat:** protegeixen les dades i els equips.
+
+Cada persona treballa des del seu ordinador, connectat a la xarxa. El servidor guarda totes les dades i fa còpies de seguretat perquè no es perdi res.
+
+##### Qui l'utilitza
+
+- **Direcció i administració:** porten la comptabilitat i controlen l'empresa.
+- **Personal d'oficina:** porten els clients, els projectes i els pressupostos.
+- **Treballadors del taller:** consulten les feines, el tall de fusta i avisen si hi ha una incidència.
+- **Clients:** miren la web per conèixer l'empresa i demanar informació.
+- **Visitants:** només fan servir el Wi-Fi, que està separat de la xarxa de l'empresa.
+
 #### Abast
+
 El nostre projecte consisteix a crear una proposta de sistema informàtic que permeti gestionar millor les diferents àrees de La FUSTA.
-Inclourem la gestió de clients i projectes, la web, el tall de fusta, la comptabilitat, els treballadors, les incidències, les còpies de seguretat i la ciberseguretat.
-També estudiarem la infraestructura necessària, com els equips informàtics, la xarxa i el cablejat.
+
+##### Què entra al projecte
+
+- La gestió de clients i projectes.
+- La web.
+- El tall de fusta.
+- La comptabilitat.
+- Els treballadors.
+- Les incidències.
+- Les còpies de seguretat i la ciberseguretat.
+- La infraestructura necessària: equips informàtics, xarxa i cablejat.
+
 El nostre objectiu és aconseguir un sistema segur, fàcil d'utilitzar, fiable i que pugui créixer amb l'empresa.
-
-#### Infraestructura
-- Espais: Creem una sala de comunicacions amb envans, on hi haurà el servidor i els switchos. Ha de ser neta, seca i tancada amb clau, lluny de la pols del taller. Hi posem aire condicionat perquè els - equips no s’escalfin.
-- Cablejat: Fem servir cable Cat6 per als ordinadors i fibra òptica per al taller, perquè no té interferències. Els cables van per tubs o safates portacables, ben ordenats i etiquetats, amb punts de xarxa de sobra per créixer.
-- Electricitat: Revisem els quadres elèctrics i fem circuits nous només per als equips informàtics, separats de les màquines. Contractem més potència, posem més endolls i instal·lem un SAI, que és una bateria per si hi ha un tall de llum.
-- Seguretat física: Posem panys a les zones sensibles, càmeres a les entrades i al magatzem, i targetes d’identificació per controlar qui entra.
-- Xarxa i equips: Instal·lem un tallafocs i separem la xarxa en zones (VLANs): oficina, taller, càmeres, servidors i visitants. Així, si un ordinador s’infecta, el problema no arriba a tot arreu. Afegim Wi-Fi professional, un servidor Linux i ordinadors per a l’oficina i el taller.
-
-#### Per a què serveix cada cosa
-##### Espais
-- Sala de comunicacions: protegeix el servidor i els switchos de la pols i dels accessos no autoritzats.
-- Aire condicionat: evita que els equips s'escalfin i s'espatllin.
-##### Cablejat
-- Cable Cat6: connecta els ordinadors a la xarxa a bona velocitat.
-- Fibra òptica: uneix el taller amb l'oficina sense interferències de les màquines.
-- Tubs i safates: mantenen els cables ordenats i protegits.
-- Punts de xarxa de sobra: permeten créixer sense fer obres noves.
-##### Electricitat
-- Circuits nous: eviten que els pics de corrent de les màquines afectin els ordinadors.
-- Més potència i endolls: permeten connectar tots els equips nous sense que salti el diferencial.
-- SAI: manté els equips encesos si hi ha un tall de llum i dona temps per apagar-los bé sense perdre dades.
-##### Seguretat física
-- Panys: eviten que entri qualsevol persona a les zones sensibles.
-- Càmeres: vigilen les entrades i el magatzem.
-- Targetes d'identificació: controlen qui entra on i registren l'horari dels treballadors.
-##### Xarxa i equips
-- Tallafocs: protegeix la xarxa dels atacs que vénen d'Internet.
-- VLANs: separen les zones perquè un problema en una no passi a les altres.
-- Wi-Fi professional: dona connexió als dispositius, amb una xarxa separada per als visitants.
-- Servidor Linux: guarda els programes i les dades de l'empresa, com l'ERP i els fitxers.
-- Ordinadors: són les eines de feina del personal d'oficina i del taller.
 
 ### MyBread
 
