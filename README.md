@@ -2,6 +2,15 @@
 
 Llista de projectes d'SMX2A del curs 2026-2027.
 
+  - [AlmostReal](#AlmostReal), [almostreal.cat](https://almostreal.cat)
+  - [GameTruk](#GameTruk), [gametruk.cat](https://gametruk.cat)
+  - [GymLeveling](#GymLeveling), [gymleveling.cat](https://gymleveling.cat)
+  - [IHateSpam](#IHateSpam), [ihatespam.cat](https://ihatespam.cat)
+  - [La-Fusta-Lactea](#La-Fusta-Lactea), [la-fusta-lactea.cat](https://la-fusta-Lactea.cat)
+  - [MyBread](#MyBread), [mybread.cat](https://mybread.cat)
+  - [OfAI](#OfAI), [ofai.cat](https://ofai.cat)
+  - [UnderLabs](#UnderLabs), [underlabs.cat](https://underlabs.cat)
+
 ### [AlmostReal](https://github.com/samjorge28/AlmostReal)
 
 Esborrany Projecte AlmostReal
@@ -21,17 +30,20 @@ En aquesta primera fase, el projecte se centrarà en crear una botiga petita amb
 Perquè el projecte sigui realista, inicialment no es faran funcions més complexes, com ara pagar directament des de la botiga virtual, connectar-se als estocs reals de les botigues o permetre que molts establiments utilitzin el sistema alhora. Aquestes opcions es podrien afegir més endavant si el projecte funciona bé.
 
 L'objectiu final d'AlmostReal és demostrar que la tecnologia pot oferir una nova manera de comprar roba, combinant una botiga virtual, recomanacions personalitzades i una gestió senzilla dels productes. Es començarà amb una versió bàsica i s'aniran afegint millores a mesura que avanci el projecte.
-### [Game Truk](https://github.com/AdamHmamSetti/GameTruk)
 
-Aquest projecte consisteix un camió adaptat a videojocs i entrenament de torneijos. L’objectiu principal es crear un entorn on les persones puguin gaudir de diferents videojocs amb amics, utilizant consoles i ordinadors gaming.
+### [GameTruk](https://github.com/AdamHmamSetti/GameTruk)
+Aquest projecte consisteix en la creació d’una petita empresa, que és un camió gaming, on la gent podrà venir a jugar a videojocs amb els seus amics, fer tornejos i passar-ho bé.
 
-El Game Truk disposara d’una infraestructura informàtica, formada per una xarxa locals, servidors, equips, consoles i sistemes de comunicació.
+El sector on es trobarà seran en diferents festivitats en Pobles i Ciutats.
 
-Ens plantegem la utilizació de sis connexions Starlink de 300 Mbps. Aquestes connexions es gestionaran en un servidor (Ubuntu server) , utilizant la tecinca del Channel Bonding.
+La idea és tenir un espai divertit perquè la gent pugui jugar i competir.
 
-L’infrastuctura de xarxa estara formada switshes, WI-FI i connexions Ethernet. Els ordinador gaming es conectaran a conexió ethernet.
+Perquè tot funcioni bé, necessitarem muntar una infraestructura amb una xarxa local, servidors, ordinadors, consoles i connexions a internet.
 
-Com a sistema operatiu dels servidors utilizarem ubuntu server, basat en el kernel de linux. Aquest sistema ens deixara gestionar serveis en xarxa , usuaris, permisos i seguretat.
+Per tenir una bona connexió utilitzàrem sis Starlink de 300 Mbps, els gestionarem amb un Ubuntu Server utilitzant el Channel Bonding que serveix combinar diferents connexions.
+
+La xarxa estarà formada per switches, WI-FI cable Ethernet. Els PC gaming anirà amb cable Ethernet.
+
 ![Game Truck](camiongaming.png)
 
 (Electricitat i Infraestructura)
@@ -39,12 +51,11 @@ Com a sistema operatiu dels servidors utilizarem ubuntu server, basat en el kern
 Endolls 220 V del camió per tota l’electricitat.
 Star Links posats al camió.
 Infraestructura del camió perquè entri totes les coses i no interfereixi amb el medi ambient i els carrers per passar amb el camió.
-Plaques solars sota el camió per alimentar una part de tot el que utilitzarem.
+Plaques solars per alimentar una part de tot el que utilitzarem.
 El manteniment de les plaques solars amb neteja periòdicament i costos.
 Els costos per l’electricitat, llum ventilació i els seus manteniments.
 Aïllament acústic per dins del camió.
 Llums led.
-![Game Truck](Electricitat_i_Infraestructura.png)
 
 
 (Gaming i Equipament)
@@ -54,7 +65,6 @@ Zona Vr amb ulleres realitat virtual x2 que sortirà més de preu
 Pantalla visible fora del camió pels següents tornejos, posar publicitat o per jocs com el Just Dance.
 Consoles retro.
 Llicències per les consoles i també pels jocs que hi hagin.
-![Game Truck](Gaming_i_Equipament.png)
 
 
 (Experiència del Client i Decoració)
@@ -64,7 +74,6 @@ Petites begudes i menjar, snacks per la gent.
 seients ergonòmics fàcils de netejar i còmodes per la gent.
 Lloc on la gent pugui fer fotos per les xarxes socials.
 Packs per la gent que compleix anys amb coses personalitzades.
-![Game Truck](Experiència_del_Client_i_Decoració.png)
 
 
 (Personal, Preus i Web)
@@ -73,85 +82,149 @@ Personal per parlar amb la gent decidir horaris, quan juga la gent i els preus q
 Preus i serveis.
 Publicitat dins de la pàgina web.
 Reserves directament per la pàgina web.
-![Game Truck](Personal_Preus_i_Web.png)
 
+
+
+En el que ens centrarem en el nostre projecte és en un sistema de Channel Bonding per ajuntar totes les xarxes de Starlink per aconseguir ajuntar-les totes en una sola.
+
+També ens encarregarem amb Ubuntu server i amb un hub d'Ethernet en un ordinador fer servir això amb una petita demostració de què funciona bé, fent servir el Channel Bonding.
+
+Fer una pàgina del nostre projecte per donar a conèixer a la gent que la vegi de què tracta, amb informació del que és el GameTruk.
 
 
 ### [GymLeveling](https://github.com/saericdo/GymLeveling)
-Una polsera per a cada persona amb un identificador únic que serveix per entrar sortir i registrar-se en una màquina, després una lliga, amb rangs, la lliga és mensual i vas pujant llocs a mesura que guanyes punts els quals es guanyen fent la teva rutina, exercicis, reptes, Existeixen també reptes diaris i reptes setmanals, els reptes diaris et donarien el doble de punts i el setmanal el doble que el diari, El repte diari consistiria en una màquina segons la teva rutina, i el repte setmanal consistiria en una rutina d'un dia que pots fer cada setmana com per exemple un full body o fer cama full amb màquines que no s'usen, aquests reptes et donarien punts de lliga (els punts de lliga serveixen per pujar rànquing en lliga) i el setmanal et donaria punts de lliga i monedes( les monedes serveixen per quan en acumulis les suficients gastar-les en descomptes, productes, merchandising, etc.) cada dia si completes la teva rutina et donarien punts de lliga i monedes. Per a què serveix la lliga? Per incentivar la gent a anar al gym, en la qual si quedes en determinats llocs rebis diferents recompenses ex: top 1 títol exclusiu, -75% de descompte aquest mes, lot de proteïna i creatina i per exemple unes 50 monedes (les quantitats encara són indefinides), top 2 títol exclusiu, 25 monedes (les quantitats encara són indefinides), -50% de descompte aquest mes, lot de proteïna i creatina, top 3 títol exclusiu,15 monedes (les quantitats encara són indefinides), -25% de descompte aquest mes, lot de proteïna i creatina, top 4-10,10 monedes (les quantitats encara són indefinides). Important: els punts de lliga i les monedes de lliga són diferents (els punts de lliga es resetegen quan es reseteja la lliga i només serveixen per pujar llocs i guanyar les recompenses de lliga, després hi haurà experiència que et pugi de rang per fer exercicis i això un sistema normal d'experiència vaja). Finalment tenim una idea d'un sistema de ràtxa, en aquest hi ha dues diferents ràtxes, la primera ràtxa és de lliga, la qual es reseteja quan la lliga (aquesta no es reinicia quan falles un dia de rutina simplement aquest dia no compta i es queda en la mateixa ràtxa), (més ràtxa = més punts de lliga) l'altra ràtxa és una ràtxa general i aquesta es reseteja quan fallis un dia de la teva rutina (més ràtxa general = més monedes). Misions anuals i addicionals que apareixeran cada cert temps(les addicionals), les anuals consistiran en barbaritats (assisteix 100 dies al gimnàs o fes no sé quants km, etc.). Les addicionals en coses casuals (convida un amic amb aquest codi). Conseqüències: no portes polsera = no punts Cada màquina tindrà un sensor per tal que juntament amb la polsera detecti repeticions i pes, quantes voltes has fet a la bici, quants km i en quin temps has corregut a la cinta (tot això, evidentment, amb bona tècnica que serà detectada amb les càmeres… que aniran cap a una base de dades i un servidor que les recolliran i les posaran al rànquing, la lliga, etc. podràs tenir llista d'amics, lliga entre amics, lliga d'equips i la lliga global. Cada màquina tindrà el seu propi rànquing on sortiran els que més pes aixequin i més repeticions facin. La polsera també serà el mètode amb el qual pagaràs amb les monedes de l'aplicació, o sigui, tu t'apropes a la màquina expenedora i agafes un aquarius que val 50 monedes, doncs apropes la polsera, i pagues les 50 monedes.
+## Enfocament del projecte
+El nostre projecte és un projecte d’un gimnàs gamificat, el seu nom és **GymLeveling**, l’objectiu del nostre gimnàs és poder anar sense sentir-se obligat, posar-te en forma i entrenar sense tenir la sensació d’estar patint, tenir la rutina d’anar al gimnàs no com una obligació, sinó com una acció que fas pel teu propi gust. A més a més, volem incentivar als joves amb la gamificació per tal que gaudeixin d’un sistema modern i divertit.
 
-Els productes que podràs aconseguir amb les monedes seran, begudes a la màquina expenedora, merchandising, proteïna, creatina, productes de gimnàs…
+## Qui som
+Som una petita empresa local anomenada **GymLeveling S.L.**, el nostre gimnàs es troba al C/ Del Torrent 21, Corçà, 17121, Girona i actualment és l’única ubicació on es pot trobar el nostre local. Darrere del projecte estem dues persones que anaven a un gimnàs convencional, i ara el nostre objectiu és implementar nous sistemes per fer del gimnàs un lloc on tinguis ganes d’anar.
+## Que oferim
+### Sistemes
+Nosaltres oferim gamificar el gimnàs, aquí incloem diversos punts, com per exemple competicions per punts, missions, ratxes, etc. tot això estaria en una aplicació on tindries tots aquests elements i més, aquella aplicació anirà rebent actualitzacions i implementant millores, tot al seu temps.
+
+### Millores i solucions de problemes
+Això aporta una gran millora al sistema d’un gimnàs convencional, ja que hi ha elements que et faran voler anar, ja sigui perquè seràs a un dia de aconseguir alguna recompensa per la qual estàs estalviant, perquè vols completar la missió, o simplement perquè no vols perdre la teva ratxa, qualsevol que sigui la raó et motiva a anar. Evidentment, aquesta millora resol un dels principals problemes d’anar a un gimnàs per la majoria de gent, que són les ganes d’anar-hi, i a molta gent que va per motivació i ho acaba deixant, amb aquesta millora, estaràs molt més motivat cada dia per anar-hi. A més a més, si hi ha algun dia que no pots anar, et donaria una solució d’exercici per fer a casa, per sempre poder fer l’exercici necessari.
+
+
+### Elements claus
+Hi ha diversos elements claus que nosaltres afegim en el nostre projecte:
+Una polsera identificativa i no intercanviable per cada client, que servirà per entrar al gimnàs, competir en les competicions, i tenir la possibilitat d’obtenir punts, bàsicament serà el cor de l’aplicació.
+Com ja s’ha dit al punt [sistemes](#sistemes) s'afegiran missions tant diàries com setmanals, juntament amb competicions mensuals i ratxes de dies que has complert.
+Correcció de tècnica en màquines i mediador del rang en funció del pes que aixequis i les repeticions que facis.
+Aquests són els pilars més fonamentals del nostre projecte, però té més funcions i afegirà més funcions en un futur.
+
+### Per qui està dirigit
+El nostre projecte està dirigit per qualsevol persona que vagi o vulgui anar a un gimnàs, o fins i tot per gent que només vulguin entrenar a casa, el nostre projecte no entén d’edats ni de gènere, és vàlid per qualsevol persona que vulgui portar una vida saludable a partir de l’entrenament. L’ús seria molt simple, amb una aplicació amb una interfície molt intuïtiva i clara, i un objectiu clar, incentivar-te a anar al gimnàs.
+## Quins elements inclou i no inclou el nostre projecte
+El nostre projecte afegeix diferents elements, com ara
+Una pàgina web
+Una aplicació mòbil
+Una base de dades
+Uns servidors
+El hardware (polseres, sensors…)
+El nostre projecte no allotja:
+Màquines del gimnàs
+El gimnàs
+Els productes reclamables
+Màquines expenedores
+Sistemes de seguretat
+
+## Quins elements són fets per tercers
+Dels elements que no allotgem, n’hi ha alguns que ens preparen tercers amb els que estem afiliats, com
+Les màquines del gimnàs
+Els productes obtenibles mediant l’aplicació mòbil
+Els sistemes de seguretat
+Cada tipus d’aquests elements ens els proporcionen empreses que tenim afiliades i que ens actualitzen quan és necessari.
+
+
 
 ### [IhateSpam](https://github.com/IamBrosky/ihatespam)
-IHateSpam és un projecte d'una IA que s'encarrega de l'spam que us arriba, tant trucades i SMS com correus. Quan entra alguna cosa, la IA mira el número o el correu i decideix si és spam. Si no ho és, t'hi arriba com sempre. Si ho és, en comptes de bloquejar-lo li contesta ella sola.
 
-Tu tries com contesta amb un nivell de l'1 al 10. Als nivells baixos és educada però els fa perdre el temps, als mitjans els vacil·la i els segueix el rotllo, i als alts es posa vora i els insulta.
+IHateSpam és un projecte que consisteix en crear una demo d’una IA capaç de detectar i gestionar el spam que rebem en les trucades, SMS i correus electrònics. És una idea relacionada amb la ciberseguretat que podria desenvolupar qualsevol empresa tecnològica.
 
-Cada número o correu de correu brossa que detecta es guarda en una base de dades, així la propera vegada que tornin les reconeix al moment. A més, l'usuari pot crear una llista de contactes segurs, que són números i correus als quals la IA mai no respon, perquè no conteste per error la teva família, el teu banc o la teva feina. També porta un filtre de seguretat: si alguna cosa sembla una estafa perillosa, com un phishing, la IA no contesta per no donar dades ni confirmar que el teu número funciona.
+Quan rebem un missatge, SMS o trucada, la IA analitza el número o correu per decidir si és spam. Si no ho és, arriba amb normalitat. Si ho detecta com a spam, respon automàticament per nosaltres en comptes de bloquejar-lo. Podem triar com respon segons un nivell de l'1 al 10 que nosaltres triarem, des de respostes educades fins a respostes més - fins i tot al punt d'insultar.
 
-Tot això va a una web i una aplicació. Des d'aquí es veu un historial de quin correu brossa ha arribat, què ha respost la IA i quant de temps els ha fet perdre.
+El sistema també desa els números i els correus analitzats en una base de dades per reconèixer-los en un futur. A més, permet crear una llista de contactes segurs per evitar respondre familiars, bancs o contactes importants. També inclou un filtre que detecta possibles estafes i phishing, el que fa això és evitar respondre missatges o trucades perilloses.
+
+Finalment, tindreu una pàgina web per descarregar una extensió per als navegadors web i una aplicació des de les quals podrem configurar la IA i consultar un historial amb els missatges rebuts, les respostes enviades i el temps que hem aconseguit fer perdre les persones que ens contacten.
+
 ![Esquema](esquema_pro.png)
 
-### La-Fusta-Lactea
+### [La-Fusta-Lactea](https://github.com/Imad815/la-fusta-lactea)
 
 #### Context
+
 La FUSTA és una fusteria que fabrica mobles a mida de manera artesanal. Els seus clients són sobretot empreses, hotels, restaurants i locals públics.
 Actualment, l'empresa està poc digitalitzada i molts processos es fan de manera tradicional. Per aquest motiu, la nova direcció vol modernitzar l'empresa per millorar l'organització, reduir costos, controlar millor els processos i aprofitar millor els materials.
+La FUSTA és una petita empresa que es dedica a fabricar i vendre mobles a mida. El nostre projecte és de digitalització: hem de preparar una infraestructura informàtica nova i posar en marxa sistemes nous que substitueixin els processos tradicionals.
 Nosaltres, com a responsables del projecte, haurem d'analitzar les necessitats de La FUSTA i proposar una solució informàtica que ajudi a modernitzar l'empresa.
 
+#### Descripció del sistema
+
+##### Què aporta el sistema
+
+Ara La FUSTA fa moltes coses a mà. La informació està repartida, es perd temps, hi ha errors i costa controlar els materials. El sistema informàtic ho vol solucionar i promet:
+
+- Tenir tota la informació (clients, projectes, treballadors i comptabilitat) en un sol lloc.
+- Treballar més ràpid i amb menys errors.
+- Aprofitar millor la fusta i gastar menys.
+- Controlar millor la feina i les incidències.
+- Protegir les dades amb còpies de seguretat i ciberseguretat.
+
+##### Com funciona
+
+El sistema té aquestes parts principals:
+
+- **Infraestructura:** espais, cables, electricitat, seguretat, xarxa i ordinadors. És la base de tot.
+- **Servidor:** l'ordinador central que guarda els programes i les dades de l'empresa.
+- **Programa de gestió (ERP):** serveix per portar els clients, els projectes, la comptabilitat, els treballadors i les incidències.
+- **Web:** perquè els clients coneguin l'empresa i puguin contactar-hi.
+- **Gestió del tall de fusta:** ajuda a planificar el tall per aprofitar bé el material.
+- **Còpies de seguretat i ciberseguretat:** protegeixen les dades i els equips.
+
+Cada persona treballa des del seu ordinador, connectat a la xarxa. El servidor guarda totes les dades i fa còpies de seguretat perquè no es perdi res.
+
+##### Qui l'utilitza
+
+- **Direcció i administració:** porten la comptabilitat i controlen l'empresa.
+- **Personal d'oficina:** porten els clients, els projectes i els pressupostos.
+- **Treballadors del taller:** consulten les feines, el tall de fusta i avisen si hi ha una incidència.
+- **Clients:** miren la web per conèixer l'empresa i demanar informació.
+- **Visitants:** només fan servir el Wi-Fi, que està separat de la xarxa de l'empresa.
+
 #### Abast
+
 El nostre projecte consisteix a crear una proposta de sistema informàtic que permeti gestionar millor les diferents àrees de La FUSTA.
-Inclourem la gestió de clients i projectes, la web, el tall de fusta, la comptabilitat, els treballadors, les incidències, les còpies de seguretat i la ciberseguretat.
-També estudiarem la infraestructura necessària, com els equips informàtics, la xarxa i el cablejat.
+
+##### Què entra al projecte
+
+- La gestió de clients i projectes.
+- La web.
+- El tall de fusta.
+- La comptabilitat.
+- Els treballadors.
+- Les incidències.
+- Les còpies de seguretat i la ciberseguretat.
+- La infraestructura necessària: equips informàtics, xarxa i cablejat.
+
 El nostre objectiu és aconseguir un sistema segur, fàcil d'utilitzar, fiable i que pugui créixer amb l'empresa.
 
-#### Infraestructura
-- Espais: Creem una sala de comunicacions amb envans, on hi haurà el servidor i els switchos. Ha de ser neta, seca i tancada amb clau, lluny de la pols del taller. Hi posem aire condicionat perquè els - equips no s’escalfin.
-- Cablejat: Fem servir cable Cat6 per als ordinadors i fibra òptica per al taller, perquè no té interferències. Els cables van per tubs o safates portacables, ben ordenats i etiquetats, amb punts de xarxa de sobra per créixer.
-- Electricitat: Revisem els quadres elèctrics i fem circuits nous només per als equips informàtics, separats de les màquines. Contractem més potència, posem més endolls i instal·lem un SAI, que és una bateria per si hi ha un tall de llum.
-- Seguretat física: Posem panys a les zones sensibles, càmeres a les entrades i al magatzem, i targetes d’identificació per controlar qui entra.
-- Xarxa i equips: Instal·lem un tallafocs i separem la xarxa en zones (VLANs): oficina, taller, càmeres, servidors i visitants. Així, si un ordinador s’infecta, el problema no arriba a tot arreu. Afegim Wi-Fi professional, un servidor Linux i ordinadors per a l’oficina i el taller.
-
-#### Per a què serveix cada cosa
-##### Espais
-- Sala de comunicacions: protegeix el servidor i els switchos de la pols i dels accessos no autoritzats.
-- Aire condicionat: evita que els equips s'escalfin i s'espatllin.
-##### Cablejat
-- Cable Cat6: connecta els ordinadors a la xarxa a bona velocitat.
-- Fibra òptica: uneix el taller amb l'oficina sense interferències de les màquines.
-- Tubs i safates: mantenen els cables ordenats i protegits.
-- Punts de xarxa de sobra: permeten créixer sense fer obres noves.
-##### Electricitat
-- Circuits nous: eviten que els pics de corrent de les màquines afectin els ordinadors.
-- Més potència i endolls: permeten connectar tots els equips nous sense que salti el diferencial.
-- SAI: manté els equips encesos si hi ha un tall de llum i dona temps per apagar-los bé sense perdre dades.
-##### Seguretat física
-- Panys: eviten que entri qualsevol persona a les zones sensibles.
-- Càmeres: vigilen les entrades i el magatzem.
-- Targetes d'identificació: controlen qui entra on i registren l'horari dels treballadors.
-##### Xarxa i equips
-- Tallafocs: protegeix la xarxa dels atacs que vénen d'Internet.
-- VLANs: separen les zones perquè un problema en una no passi a les altres.
-- Wi-Fi professional: dona connexió als dispositius, amb una xarxa separada per als visitants.
-- Servidor Linux: guarda els programes i les dades de l'empresa, com l'ERP i els fitxers.
-- Ordinadors: són les eines de feina del personal d'oficina i del taller.
-
-### MyBread
+### [MyBread](https://github.com/aleixalbacete-del/mybread)
 
 #### Context
 
-L’idea d’aquest projecte es poder digitalitzar un Fleca. Volem crear una tecnología que faciliti la feina dels treballadors, millori l'experiència dels clients i ajudi a vendre més evitant el desperdici d’aliments. 
+L’idea d’aquest projecte es poder digitalitzar un Fleca. Volem crear una tecnología que faciliti la feina dels treballadors, millori l'experiència dels clients i ajudi a vendre més evitant el desperdici d’aliments.
 
-Actualment en una fleca tradicional podem trobar diferent problemes relacionats amb l’organització de les comandes, el control dels productes, l’atenció al client i la gestió de les vendes. 
+Actualment en una fleca tradicional podem trobar diferent problemes relacionats amb l’organització de les comandes, el control dels productes, l’atenció al client i la gestió de les vendes.
 
-##### Problemes que volem solucionar 
+##### Problemes que volem solucionar
 
 Farem una proposta ràpida de problemes i solucions que podem donar
 
 **Cues al comprar el pa** → Comandes anticipades i recollida, poden per exemple programar el pa cada dia a la mateixa hora
 
-**Control de stock** → Crear un cataleg amb disponibilitat dels productes  
-n  
+**Control de stock** → Crear un cataleg amb disponibilitat dels productes
+n
 **Es tira el pa a final del dia** → Ofertes d’última hora
 
 **Les comandes van amb paper i boli** → Fer un sistema centralitzat amb la gestió de les comandes, per tindre un ordre
@@ -162,7 +235,7 @@ n
 
 **Pot costar analitzar les vendes que es fan** → Un panell amb estadístiques, com a l’anterior, es pot ajudar a fer estadístiques sobre que compren més, a quines hores…
 
-Amb MyBread volem solucionar aquest problemes amb una plataforma digital que conecti amb els clients i els treballadors i faciliti la gestió del negoci. 
+Amb MyBread volem solucionar aquest problemes amb una plataforma digital que conecti amb els clients i els treballadors i faciliti la gestió del negoci.
 
 
 
@@ -171,45 +244,45 @@ Amb MyBread volem solucionar aquest problemes amb una plataforma digital que con
 
 ##### Que proposem
 
-**Una botiga online:** 
+**Una botiga online:**
 
-Proposem fer una botiga online, tant web com aplicació que aparegui un catàleg amb fotografíes dels productes, i on el client (i preparat també per a la gent gran, que son els principals clients del pà a primera hora) puguin de manera intuitiva el pa, l’hora de recollida i si pagar online o a botiga. 
+Proposem fer una botiga online, tant web com aplicació que aparegui un catàleg amb fotografíes dels productes, i on el client (i preparat també per a la gent gran, que son els principals clients del pà a primera hora) puguin de manera intuitiva el pa, l’hora de recollida i si pagar online o a botiga.
 
-**Gestió interna:** 
+**Gestió interna:**
 
-Fer un panell privat per als treballadors. Aquest panell estaria posat als ordinadors de la fleca, i permetria als treballadors veure comandes pendents, control·lar les existències restants, actualitzar els productes i consultar les vendes dels dies. 
+Fer un panell privat per als treballadors. Aquest panell estaria posat als ordinadors de la fleca, i permetria als treballadors veure comandes pendents, control·lar les existències restants, actualitzar els productes i consultar les vendes dels dies.
 
-**Productes restants:** 
+**Productes restants:**
 
-A final de dia, els productes que no s’haguin venut, es poden vendre amb descompte, amb packs promoció, o ofertas d’última hora. Aixó es un programa qui et diu quins productes baixar i a quin preu. Pot arribar a estar conectat amb les estadístiques per a saber els productes que s’acaben de vendre a última hora i els que no, i baixar el necessari els que calguin. 
+A final de dia, els productes que no s’haguin venut, es poden vendre amb descompte, amb packs promoció, o ofertas d’última hora. Aixó es un programa qui et diu quins productes baixar i a quin preu. Pot arribar a estar conectat amb les estadístiques per a saber els productes que s’acaben de vendre a última hora i els que no, i baixar el necessari els que calguin.
 
-**Fidelització:** 
+**Fidelització:**
 
 A la mateixa web / aplicació per a la botiga online, es pot afegir un programa de punts, cupons, descomptes al dia d’aniversari i recompenses per a clients habituals.
 
-**Estadístiques:** 
+**Estadístiques:**
 
-Tenir estadístiques de tot el que passi a la botiga. Poder veure les ventes del dia, quins productes s’han venut més, les hores de màxima demanda, i per exemple els productes que s’han perdut per fer de més. 
+Tenir estadístiques de tot el que passi a la botiga. Poder veure les ventes del dia, quins productes s’han venut més, les hores de màxima demanda, i per exemple els productes que s’han perdut per fer de més.
 
-**Recollida ràpida**: 
+**Recollida ràpida**:
 
-El client quan fa la reserva del pa per exemple reb un codi QR, per quan vagi a la botiga a recollir la comanda, únicament calgui escanejar el codi, i treure la bossa préviament preparada, per anar molt més ràpid. 
+El client quan fa la reserva del pa per exemple reb un codi QR, per quan vagi a la botiga a recollir la comanda, únicament calgui escanejar el codi, i treure la bossa préviament preparada, per anar molt més ràpid.
 
-##### Objectius 
+##### Objectius
 
-Els nostres principals objectius son: 
+Els nostres principals objectius son:
 
-* Digitalitzar la gestió d’una panaderia   
-* Reduir els errors humans en les comandes i en l’inventari  
-* Millorar l'experiència de compra per al client  
-* Disminuir el desperdici d’aliments amb promocions al final de dia  
-* Modernitzar i reinventar un nou negoci de fleca, més modern i fàcil. 
+* Digitalitzar la gestió d’una panaderia
+* Reduir els errors humans en les comandes i en l’inventari
+* Millorar l'experiència de compra per al client
+* Disminuir el desperdici d’aliments amb promocions al final de dia
+* Modernitzar i reinventar un nou negoci de fleca, més modern i fàcil.
 
 ##### Arquitectura del sistema
 
 [https\://www\.odoo.com/ca\_ES](https://www.odoo.com/ca_ES)
 
-S’ha de tindre 2 web, una al núvol per tota la part frontend i una en local per a tota la part backend, que es connectin. 
+S’ha de tindre 2 web, una al núvol per tota la part frontend i una en local per a tota la part backend, que es connectin.
 
 **FRONTEND \- Web per als clients**
 
@@ -219,13 +292,13 @@ Aquesta part permetrà als clients consultar els productes, fer comandes online 
 
 **BACKEND- Logística del projecte**
 
-Amb això farem la gestió interna, les comandes i la connexió amb la base de dades. 
+Amb això farem la gestió interna, les comandes i la connexió amb la base de dades.
 
-**Base de dades** 
+**Base de dades**
 
 MySQL: Clients, Productes, Comandes i Stock
 
-També s’ha d’afegir seguretat, copias de seguretat diàries, protegir les contrasenyes, i un sistema de permisos per als treballadors i l’administrador.  
+També s’ha d’afegir seguretat, copias de seguretat diàries, protegir les contrasenyes, i un sistema de permisos per als treballadors i l’administrador.
 
 
 
@@ -283,7 +356,7 @@ de quin problema pot estar patint el pacient.
 Aquesta és la finalitat del nostre projecte.
 
 ### UNDERLABS
-El projecte consisteix en el desenvolupament d’una plataforma tecnològica orientada al sector dels videojocs, dissenyada per oferir una solució integrada per a l’execució, la gestió i l’accés a continguts interactius de diferents entorns digitals.
+UnderLabs es una petita start-up que vol desenvolupar una plataforma tecnològica orientada al sector dels videojocs, dissenyada per oferir una solució integrada per a l’execució, la gestió i l’accés a continguts interactius de diferents entorns digitals.
 El sistema disposarà d’un entorn de programari propi, compatible amb diferents formats i sistemes de distribució de videojocs, tant físics com digitals, així com amb serveis i comptes vinculats a plataformes informàtiques externes.
 
 La comercialització dels productes i serveis es durà a terme mitjançant un portal web oficial, des del qual els usuaris podran adquirir els components físics del sistema i descarregar les solucions de programari disponibles.
@@ -294,3 +367,5 @@ Aquests productes s’integraran dins del catàleg de la botiga en línia, amb l
 
 En conjunt, la iniciativa pretén establir un ecosistema tecnològic integral dins de l’àmbit dels videojocs, combinant desenvolupament de programari, solucions de maquinari, serveis d’infraestructura en xarxa i perifèrics especialitzats en una única plataforma de distribució i accés.
 
+L'abast d'aquest projecte serà el següent: el sistema de programari propi, el servidor en línea i la pàgina web.
+El que no entra dins de l'abast: el maquinari on funcionarà el sistema i el perifèrics de marca pròpia.
