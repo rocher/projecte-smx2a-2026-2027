@@ -6,6 +6,8 @@ Llista de projectes d'SMX2A del curs 2026-2027.
 
 Esborrany Projecte AlmostReal
 
+![AlmostReal](IMG_9008.jpg)
+
 AlmostReal és un projecte que vol modernitzar les botigues de roba utilitzant la tecnologia. 
 
 La idea és crear una botiga virtual en 3D que els clients puguin visitar des de casa amb un ordinador i, en un futur, amb unes ulleres de realitat virtual. D'aquesta manera, podran veure com és la botiga i explorar els seus productes sense haver-hi d'anar presencialment.
